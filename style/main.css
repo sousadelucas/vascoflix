@@ -1,0 +1,111 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu NAV BAR */
+
+body {
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 6px;
+    color: whitesmoke;
+    font-family: 'Arial Black';
+    font-size: 38px;
+}
+
+header nav a {
+    text-decoration-line: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+    color: #fff
+}
+
+/* Filme Principal */
+
+.titulo-libertadores {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-libertadores .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo-libertadores .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50) ;
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.titulo-libertadores .container {
+    width: 70%;
+}
+
+.carrossel-idolos {
+    margin-top: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.box-idolos {
+    height: 260px;
+    width: 120px;
+    display: block;
+
+}
